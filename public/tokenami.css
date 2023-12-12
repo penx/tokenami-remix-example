@@ -1,0 +1,33 @@
+:root {
+  --grid: .25rem;
+}
+
+* {
+  --padding: ;
+  --margin: ;
+  --border-width: ;
+}
+
+[style*="--border-width:"] {
+  border-width: calc(var(--grid) * var(--border-width));
+}
+
+[style*="--border-width:var"], [style*="--border-width: var"] {
+  border-width: var(--border-width);
+}
+
+[style*="--margin:"] {
+  margin: calc(var(--grid) * var(--margin));
+}
+
+[style*="--margin:var"], [style*="--margin: var"] {
+  margin: var(--margin);
+}
+
+[style*="--padding:"] {
+  padding: calc(var(--grid) * var(--padding));
+}
+
+[style*="--padding:var"], [style*="--padding: var"] {
+  padding: var(--padding);
+}

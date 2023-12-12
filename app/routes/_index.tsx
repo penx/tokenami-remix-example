@@ -10,7 +10,15 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
+      <h1
+        style={{
+          "--padding": 10,
+          "--margin": -2,
+          "--border-width": 4,
+        }}
+      >
+        Welcome to Tokenami
+      </h1>
       <ul>
         <li>
           <a
