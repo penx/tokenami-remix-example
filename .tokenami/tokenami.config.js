@@ -1,8 +1,8 @@
-const { createConfig } = require('@tokenami/dev');
+const { createConfig } = require("@tokenami/dev");
 
 module.exports = createConfig({
   include: [],
-  grid: '0.25rem',
+  grid: "0.25rem",
   responsive: {},
   theme: {
     alpha: {},
@@ -10,9 +10,9 @@ module.exports = createConfig({
     border: {},
     color: {},
     ease: {},
-    'font-size': {},
+    "font-size": {},
     leading: {},
-    'line-style': {},
+    "line-style": {},
     radii: {},
     size: {},
     shadow: {},
